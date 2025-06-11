@@ -4,7 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Derrick Thomas Luiz | Portfolio</title>
+  <link rel="icon" href="C:\Users\derri\OneDrive\Documents\project\personal portfolio\assets\images\dk.png" type="image/png" />
+<meta name="description" content="Personal portfolio website of Your Name" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/styles.css" />
+  <!-- AOS CSS -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 </head>
 <body>
 
@@ -17,6 +22,7 @@
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
+         <li><a href="https://85dk.github.io/Blogs/">Blogs</a></li>
       </ul>
       <button id="themeToggle" aria-label="Toggle Dark Mode">🌙</button>
 
@@ -31,7 +37,7 @@
   </section>
 
   <!-- ===== About Section ===== -->
-  <section id="about">
+  <section id="about" data-aos="fade-up">
     <h2>About Me</h2>
     <p>I'm a passionate front-end developer with a strong foundation in HTML, CSS, JavaScript, and Git. I enjoy bringing ideas to life through clean, responsive design and interactive user experiences. Currently expanding my skills into modern frameworks like React, I'm eager to build impactful, user-friendly web applications that blend functionality with creativity.</p>
     <h3>Skills:</h3>
@@ -60,7 +66,7 @@
   <!-- ===== Projects Section ===== -->
   <section id="projects">
     <h2>Projects</h2>
-    <div class="project">
+    <div class="project" data-aos="zoom-in">
       <h3><a href="<a href="https://sites.google.com/view/cuisinecloud/home">Cuisine Cloud: AI-Powered Recipe Generating App </a></h3>
       <p>Cuisine Cloud is an intelligent, cross-platform mobile and web application designed to revolutionize the way people cook by using the power of artificial intelligence. This  innovative app enables users to generate customized recipes based on the ingredients they already have at home, significantly reducing food waste and making meal planning more spontaneous and efficient.
 
@@ -98,6 +104,9 @@ Cuisine Cloud stands out as a smart, community-driven cooking assistant—free, 
     <p>Email: <a href="mailto:derrickthomas8590@gmail.com">derrickthomas8590@gmail.com</a></p>
     <p>LinkedIn: <a href="https://linkedin.com/in/derrick-thomas">Derrick Thomas Luiz</a></p>
     <p>GitHub: <a href="https://github.com/85dk#hi-there">Derrick Thomas Luiz</a></p>
+    <a href="C:\Users\derri\OneDrive\Documents\project\personal portfolio\assets\resume.pdf" class="btn" target="_blank">
+  <i class="fas fa-download"></i> Download Resume
+ </a>
 
   </section>
 
@@ -107,5 +116,12 @@ Cuisine Cloud stands out as a smart, community-driven cooking assistant—free, 
   </footer>
 
   <script src="js/main.js"></script>
+<!-- AOS JS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
 </body>
 </html>
+
